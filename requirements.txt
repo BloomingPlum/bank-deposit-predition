@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+xgboost
+optuna
+hyperopt
+autogluon.tabular
+mlflow
+joblib
+seaborn
+matplotlib
+shap
