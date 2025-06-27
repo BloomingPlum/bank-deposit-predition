@@ -5,24 +5,24 @@ This project aims to predict whether a client will subscribe to a term deposit u
 ## Project Structure
 
 ```
-├── 1.EDA.ipynb                       # Exploratory Data Analysis
-├── 2.Preprocessing_and modelling.ipynb # Data preprocessing and baseline models
-├── 3.XGBoost_and_hyperparameter_tuning.ipynb # XGBoost and hyperparameter tuning
-├── 4.Autogluon.ipynb                  # AutoML with AutoGluon
-├── 5.Feature_importance_SHAP.ipynb    # Feature importance and SHAP analysis
-├── data/                              # Raw and preprocessed datasets
+├── 1.EDA.ipynb                                 
+├── 2.Preprocessing_and modelling.ipynb          
+├── 3.XGBoost_and_hyperparameter_tuning.ipynb
+├── 4.Autogluon.ipynb 
+├── 5.Feature_importance_SHAP.ipynb 
+├── data/ 
 │   ├── bank-additional-full.csv
 │   ├── preprocessed_bank_data.csv
 │   └── ...
-├── models/                            # Saved model artifacts
-├── utils/                             # Utility modules
-│   ├── eda.py                         # EDA functions
-│   ├── eval.py                        # Evaluation functions
-│   ├── hyperparam.py                  # Hyperparameter tuning functions
-│   ├── mlflow.py                      # MLflow tracking functions
-│   └── shap.py                        # SHAP analysis functions
-├── requirements.txt                   # Project dependencies
-└── README.md                          # Project documentation
+├── models/                            
+├── utils/
+│   ├── eda.py
+│   ├── eval.py  
+│   ├── hyperparam.py
+│   ├── mlflow.py 
+│   └── shap.py 
+├── requirements.txt  
+└── README.md 
 ```
 
 ## Requirements
